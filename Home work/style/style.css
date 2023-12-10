@@ -1,0 +1,16 @@
+h1{
+text-align: center;
+}
+.black{ 
+    font-weight: bold;
+    
+}
+pre{
+    font-size: x-large;
+    line-height: 40px;
+    font-style: unset;
+
+}
+.main{
+    width: 500px;
+}
