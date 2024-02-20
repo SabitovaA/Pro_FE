@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+}
+.one{
+    width: 700pxpx;
+    height: 39px;
+    font-family: Inter;
+    font-size: 22px;
+    line-height: 39px;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 50px;
+    margin:20px 20px ;
+    
+}
+.two{
+    width: 700pxpx;
+    height: 39px;
+    font-family: Inter;
+    font-size: 22px;
+    line-height: 39px;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 50px;
+    margin:20px 20px;
+}
+.three{
+    width: 700pxpx;
+    height: 90px;
+    font-family: Inter;
+    font-size: 22px;
+    line-height: 39px;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 50px;
+    margin:20px 20px;
+    padding-top: 20px;
+    background-color: red;
+    
+}
