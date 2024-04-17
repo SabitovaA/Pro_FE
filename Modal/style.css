@@ -60,7 +60,7 @@ footer{
     align-items: center;
     justify-content: center;
     overflow-y: auto;
-    visibility: hidden;
+    display: none;
     opacity: 0; 
 }
 .modal__box{
@@ -107,7 +107,7 @@ h2{
 h3{
     margin-right: 55px;
 }
-.modal.open{
-    visibility: visible;
+.open{
+    display: flex;
     opacity: 1;
 }

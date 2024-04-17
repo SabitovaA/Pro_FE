@@ -1,13 +1,30 @@
 const productsBtn = document.querySelector("#open-modal");
+const products = document.querySelector("#close");
+const modal = document.querySelector(".modal");
+const modal__data = document.querySelector(".modal__data");
 
-productsBtn.addEventListener("click",function(){
-    document.getElementById("my-modal").classList.add("open")
+
+async function fetchApi() {
+    const url = "https://api.kanye.rest"
+
+    try{
+        const response = await fetch(url)
+        const data = await response.json()
+        modal__data.textContent = data.quote
+
+    }catch(e){
+        console.error('Error',e)
+    }
+}
+fetchApi()
+
+
+productsBtn.addEventListener("click",() => {
+    modal.classList.add('open')
 })
 
-const products = document.querySelector("#close");
-
 products.addEventListener("click",function(){
-    document.getElementById("my-modal").classList.remove("open")
+    modal.classList.remove("open")
 })
 
 
