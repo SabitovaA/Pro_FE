@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(59, 113, 132);
+    gap: 30px;
+    padding: 30px;
+    
+}
+.box{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgb(183, 215, 234);
+    
+    
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    
+}
